@@ -2,6 +2,7 @@ import React from "react";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { DiMongodb, DiDocker } from "react-icons/di";
 import { SiKubernetes } from "react-icons/si";
+import { IconContext } from "react-icons";
 import parthavImage from "../images/parthav.jpg";
 export default function About() {
   return (
@@ -22,17 +23,17 @@ export default function About() {
               <ul>
                 <li>
                   <a href="https://reactjs.org/" className="react-icon">
-                    <FaReact size={70} />
+                    <FaReact className="icons-class" />
                   </a>
                 </li>
                 <li>
                   <a href="https://nodejs.org/en/" className="node-icon">
-                    <FaNodeJs size={70} />
+                    <FaNodeJs className="icons-class" />
                   </a>
                 </li>
                 <li>
                   <a href="https://www.mongodb.com/" className="mongo-icon">
-                    <DiMongodb size={70} />
+                    <DiMongodb className="icons-class" />
                   </a>
                 </li>
                 <li>
@@ -40,12 +41,12 @@ export default function About() {
                     href="https://https://kubernetes.io/.docker.com/"
                     className="kubernetes-icon"
                   >
-                    <SiKubernetes size={70} />
+                    <SiKubernetes className="icons-class" />
                   </a>
                 </li>
                 <li>
                   <a href="https://www.docker.com/" className="docker-icon">
-                    <DiDocker size={70} />
+                    <DiDocker className="icons-class" />
                   </a>
                 </li>
               </ul>
