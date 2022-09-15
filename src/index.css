@@ -262,13 +262,13 @@ a {
   padding: 2px 16px;
 }
 .projectCard{
-  opacity: 80%;
+  opacity: .8;
   background-color: #FF3131;
   border-radius:16px;
   padding: 2em;
 }
 .projectCard:hover {
-  opacity: 120%;
+  opacity: 1.2;
 }
 .proj-description{
   font-size:18px;
@@ -312,10 +312,10 @@ a {
   border-radius: 10px;
   margin-left: 30px;
   border:none;
-  opacity: 70%;
+  opacity: .7;
 }
 .about-img:hover{
-  opacity: 100%;
+  opacity: 1;
 }
 .about-header {
   font-size: 46px;
