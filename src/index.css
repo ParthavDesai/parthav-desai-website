@@ -325,18 +325,6 @@ a {
       Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding-bottom: 25px;
 }
-.about-fade{
-  animation: fadeIn 5s;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
 .about-content{
 display: flex;
 flex-direction: row;
@@ -410,9 +398,9 @@ flex-direction: row;
 .experience{
   background-color: black;
   padding-left: 15%;
-    padding-right: 25%;
-    min-height: 60vh;
-    padding-bottom: 5%;
+  padding-right: 25%;
+  min-height: 60vh;
+  padding-bottom: 5%;
 }
 
 
