@@ -376,7 +376,7 @@ flex-direction: row;
 }
 @media only screen and (max-width: 600px) {
   .about-header{
-    font-size:32px;
+    font-size:46px;
   }
   .about-description{
     font-size:18px;
@@ -521,6 +521,21 @@ flex-direction: row;
     box-shadow: -2px 0 #E7242D;
   }
 
+}
+
+@media screen and (max-width:600px) {
+  .exp-title h2{
+    font-size:46px;
+  }
+  .exp-title{
+    margin-bottom:2rem;
+  }
+  .exp-center{
+    padding-right:25%;
+  }
+  .exp-btn-container{
+    margin-bottom:2rem;
+  }
 }
 
 /*footer*/
